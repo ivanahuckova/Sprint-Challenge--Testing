@@ -4,7 +4,6 @@ exports.up = function(knex, Promise) {
     table.string('title').notNullable();
     table.string('genre').notNullable();
     table.integer('releaseYear');
-    table.timestamps();
   });
 };
 
